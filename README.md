@@ -11,6 +11,7 @@ Tecnologías utilizadas
 
 Diseño y arquitectura
 - Variables y funciones globales con zustand.
+- Guardado en localstorage con zustand.
 - Formularios con react-hook-form.
 - Visualizacion de notificaciones con react-toastify.
 
