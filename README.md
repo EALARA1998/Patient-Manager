@@ -1,33 +1,48 @@
 # Patient Manager
-- Aplicación web para tener el control de citas de pacientes.
 
-Tecnologías utilizadas
-- Vite
-- React
-- TypeScript
-- HTML
-- CSS
-- TailwindCSS
+Veterinary patient management application designed to help keep track of pets, owners, and medical information in a simple and organized way.
 
-Diseño y arquitectura
-- Variables y funciones globales con zustand.
-- Guardado en localstorage con zustand.
-- Formularios con react-hook-form.
-- Visualizacion de notificaciones con react-toastify.
+The application allows users to register, edit, and manage patient records through an intuitive and responsive interface.
 
-Librerías externas
-- react-toastify
-- react-hook-form
-- zustand
+## Features
+- Register, edit, and delete patient records
+- Form validation and error handling
+- Global state management for patients
+- User notifications and feedback
+- Fully responsive UI
 
-Capturas de pantalla
-![Pantalla principal](assets/screenshot%2025-08-13%1.png)
+## Tech Stack
+- Frontend: React, TypeScript
+- State Management: Zustand
+- Forms & Validation: React Hook Form
+- UI Feedback: React Toastify
+- Styling: Tailwind CSS
+- Build Tool: Vite
 
-Instalación
+## Environment Variables
+Create a `.env` (backend) and `.env.local` (frontend) files in the root of the project and define the following variables:
+
+### Backend
+-
+
+### Frontend
+-
+
+## Installation & Setup
+
+### Backend
+-
+
+### Frontend
 - npm install
 - npm run dev
 
-Funcionalidades destacadas
-- Añadir, editar y eliminar pacientes.
-- Visualización del listado de todos los pacientes.
+## What I Learned
+- Managing complex form state using React Hook Form.
+- Centralizing application state with Zustand.
+- Designing CRUD-based user interfaces.
+- Handling user feedback and notifications.
+- Structuring scalable frontend applications.
 
+## Live Demo
+-
